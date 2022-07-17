@@ -33,6 +33,6 @@ void MergeList(LinkList &La, LinkList &Lb, LinkList &Lc)
     pc->next = pa ? pa : pb;    //将非空表的剩余元素直接连接在Lc表的最后
     delete Lb;                  //释放Lb的头结点
 }
-```
-
-new branch
+```  
+### 第二题   
+将两个非递减的有序链表合并为一个非递增的有序链表。要求结果链表仍使用原来两个链表的存储空间，不另外占用其它的存储空间。表中不允许有重复的数据。
